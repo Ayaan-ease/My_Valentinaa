@@ -1,0 +1,48 @@
+body {
+  background: #ffd6e0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#app {
+  text-align: center;
+}
+
+img {
+  width: 260px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 12px 22px;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background: #ff4d6d;
+  color: white;
+}
+
+#noBtn {
+  background: #777;
+  color: white;
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
